@@ -12,7 +12,7 @@ I found this concept very interesting since a mathematical specification leaves 
 
 The subject I choose was initially proposed by Dr. Ian Bayley, Senior lecturer in Computing at Oxford Brookes University. The main goal was to provide a set of formally proven data structures in order to help the future students undertaking the formal software engineering module to have a better understanding of the field and its usages.
 
-In this repository you will find the final report of my dissertation and the short paper if you are only interested in an overview of my research and implementation process. You will also find the source code (implemented using the [Dafny language](https://github.com/Microsoft/dafny)). 
+In this repository you will find the [final report](https://github.com/AlexisChevalier/formal-data-structure-library/blob/master/Papers/Final%20report.pdf) of my dissertation and the [short paper](https://github.com/AlexisChevalier/formal-data-structure-library/blob/master/Papers/Short%20paper.pdf) if you are only interested in an overview of my research and implementation process. You will also find the source code (implemented using the [Dafny language](https://github.com/Microsoft/dafny)). 
 
 ### Project overview
 
@@ -36,6 +36,8 @@ The following data structures were chosen and nearly all of them were fully impl
 The testing and validation process was made in two main steps:
 - The first one simply used the Dafny automated prover to assess the correctness of the implementation towards the mathematical specification
 - The second one was a simple test case used to assess the behavior of the implementation because even if the mathematical specification has been respected, it could be incorrect and not match the expectations of the system
+
+If you wish to have more informations about the project, please read the [final report](https://github.com/AlexisChevalier/formal-data-structure-library/blob/master/Papers/Final%20report.pdf) or at least the [short paper](https://github.com/AlexisChevalier/formal-data-structure-library/blob/master/Papers/Short%20paper.pdf) of my dissertation.
 
 ### Requirements
 
