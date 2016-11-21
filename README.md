@@ -1,5 +1,7 @@
 # A formally proven data structures library intended for Formal Methods teaching
 
+**Important: This project has not been graded yet, I will know the outcome of my MSc dissertation on the 14th of December 2016.**
+
 ### Why this project ?
 
 In order to complete my MSc in software engineering at Oxford Brookes university in 2015/2016 I had to realize an original research project related to my course. Earlier in this year I took a module explaining the concepts of formal methods, a set of techniques used, in the field of sofware engineering, to prove the correctness of a software towards a specification.
@@ -8,7 +10,7 @@ There is many ways to assess and try to achieve this goal, for instance using fu
 
 I found this concept very interesting since a mathematical specification leaves much less space for interpretation than an english-based (or any other language) specification and therefore could lead to fewer mistakes (different interpretations, missing edge cases, etc...) in testing protocols. This is the reason why I decided to study this domain further in my MSc dissertation.
 
-The subject I choose was initially proposed by Dr. Ian Bayley, Senior lecturer in Computing at Oxford Brookes University. The main goal was to provide a set of formally proven data structures in order to help the future students undertaking to formal software engineering module to have a better understanding of the field and its usages.
+The subject I choose was initially proposed by Dr. Ian Bayley, Senior lecturer in Computing at Oxford Brookes University. The main goal was to provide a set of formally proven data structures in order to help the future students undertaking the formal software engineering module to have a better understanding of the field and its usages.
 
 In this repository you will find the final report of my dissertation and the short paper if you are only interested in an overview of my research and implementation process. You will also find the source code (implemented using the [Dafny language](https://github.com/Microsoft/dafny)). 
 
@@ -30,6 +32,10 @@ The following data structures were chosen and nearly all of them were fully impl
 |	HashMap				| Partly* 	| Yes* 	| Generic for values only, not keys; * Validated and tested using assumptions	|
 |	BubbleSort			| Yes 		| Yes 	| Not generic |	
 |	InsertionSort		| Yes 		| Yes 	| Not generic |	
+
+The testing and validation process was made in two main steps:
+- The first one simply used the Dafny automated prover to assess the correctness of the implementation towards the mathematical specification
+- The second one was a simple test case used to assess the behavior of the implementation because even if the mathematical specification has been respected, it could be incorrect and not match the expectations of the system
 
 ### Requirements
 
