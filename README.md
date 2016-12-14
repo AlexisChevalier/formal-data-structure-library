@@ -1,6 +1,6 @@
 # A formally proven data structures library intended for Formal Methods teaching
 
-**Important: This project has not been graded yet, I will know the outcome of my MSc dissertation on the 14th of December 2016.**
+**Update: This project has now been graded with a mark of 74%.**
 
 ### Why this project ?
 
