@@ -41,7 +41,7 @@ If you wish to have more informations about the project, please read the [final 
 
 ### Requirements
 
-This is a Visual Studio 2012 project, in order to work correctly it also requires the Dafny extesion available at https://github.com/Microsoft/dafny/wiki/INSTALL.
+This is a Visual Studio 2012 project, in order to work correctly it also requires the Dafny extension available at https://github.com/Microsoft/dafny/wiki/INSTALL.
 
 You can also use the Dafny web IDE (http://rise4fun.com/Dafny) or the command line interpreter provided by the Dafny project.
 
